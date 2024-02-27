@@ -63,3 +63,7 @@ http.createServer((req, res) => {
 * 每次调用 sendEvent 函数后，使用 setTimeout 在一秒后再次调用 sendEvent，以便实现定时发送事件和消息的功能。
 ## 4. 最后，监听客户端的连接关闭事件，当客户端断开连接时，结束响应。
 通过以上代码，您可以在 Node.js 中创建一个能够实时向客户端发送事件和消息的 Server-Sent Events 服务器。
+## 5. 运行
+```javascript
+node index.js
+```
